@@ -1,4 +1,4 @@
-// src/components/Logout.js
+
 import React from 'react';
 import { auth } from '../firebase';
 import { signOut } from 'firebase/auth';
@@ -10,9 +10,9 @@ const Logout = ({ onLogout }) => {
     };
 
     return (
-        <div>
-            <h2>Logout</h2>
-            <button onClick={handleLogout}>Logout</button>
+        <div className="auth-container">
+            <h2 style={{color:"white"}}>Logout</h2>
+            <button style={{background:"#1a56db",color:'white'}} onClick={handleLogout}>Logout</button>
         </div>
     );
 };

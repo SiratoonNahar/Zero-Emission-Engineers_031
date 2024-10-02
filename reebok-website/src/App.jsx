@@ -30,12 +30,12 @@ const App = () => {
                     ) : (
                         <Login onLogin={() => setUser(auth.currentUser)} />
                     )}
-                    <button onClick={() => setShowSignUp((prev) => !prev)}>
+                    <button style={{marginLeft:"30px",marginTop:"30px",width:"300px"}} onClick={() => setShowSignUp((prev) => !prev)}>
                         {showSignUp ? 'Already have an account? Log In' : 'Need an account? Sign Up'}
                     </button>
                 </>
             )}
-            {user && <p>Welcome, {user.email}!</p>}
+            {user && <h4 style={{marginLeft:"30px",color:"white"}}>Welcome, {user.email}!</h4>}
         </div>
     );
 };
