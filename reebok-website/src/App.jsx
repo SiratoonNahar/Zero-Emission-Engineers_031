@@ -21,6 +21,7 @@ const App = () => {
 
     return (
         <div>
+            {user && <h1 style={{color:"white"}}>Welcome, {user.email}!</h1>} 
             {user ? (
                 <Logout onLogout={() => setUser(null)} />
             ) : (
@@ -35,8 +36,9 @@ const App = () => {
                     </button>
                 </>
             )}
-            {user && <h4 style={{marginLeft:"30px",color:"white"}}>Welcome, {user.email}!</h4>}
+           
         </div>
+
     );
 };
 

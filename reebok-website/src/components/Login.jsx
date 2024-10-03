@@ -22,6 +22,7 @@ const Login = ({ onLogin }) => {
     return (
         <div className="auth-container">
             <h2 style={{color:"white"}}>Login</h2>
+          
             {error && <p style={{ color: 'red',fontWeight:"800" }}>{error}</p>}
             <form onSubmit={handleLogin}>
                 <label  style={{color:"white",display:"flex",justifyContent:"flex-start"}} htmlFor="">Email</label>

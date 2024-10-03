@@ -10,8 +10,8 @@ const Logout = ({ onLogout }) => {
     };
 
     return (
-        <div className="auth-container">
-            <h2 style={{color:"white"}}>Logout</h2>
+        <div style={{display:"flex",justifyContent:"center"}}>
+           
             <button style={{background:"#1a56db",color:'white'}} onClick={handleLogout}>Logout</button>
         </div>
     );
