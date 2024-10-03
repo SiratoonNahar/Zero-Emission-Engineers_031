@@ -50,15 +50,36 @@
     display: flex;
     align-items: center;
   } */
-  .nav-actions svg {
-    margin-left: 1rem;
-    margin-right: 2rem;
-    cursor: pointer;
-  }
-  
-  .nav-actions svg:hover {
-    color: #666;
-  }
-  
+  .nav-actions {
+    display: flex;               /* Use flexbox for alignment */
+    align-items: center;        /* Center items vertically */
+    margin-left: auto;          /* Push nav actions to the right */
+}
+
+.nav-actions svg {
+    margin-left: 1rem;          /* Space between icons */
+    margin-right: 1rem;         /* Reduce right margin to keep spacing consistent */
+    cursor: pointer;            /* Show pointer cursor */
+    position: relative;         /* Set relative positioning for count badge */
+}
+
+/* Adjust hover effect for better visibility */
+.nav-actions svg:hover {
+    color: #858484;
+}
+
+/* Style for the wishlist count */
+.wishlist-count {
+    position: absolute;
+    top: -5px;                  /* Adjust as necessary for proper placement */
+    right:1px;               /* Adjust as necessary for proper placement */
+    background-color: #edb6d3;  /* Color for the count badge */
+    color: rgb(15, 14, 14);
+    border-radius: 50%;         /* Circle shape */
+    padding: 2px 5px;           /* Space around the count */
+    font-size: 12px;            /* Font size of the count */
+    font-weight: bold;          /* Make the count bold */
+}
+
 
   

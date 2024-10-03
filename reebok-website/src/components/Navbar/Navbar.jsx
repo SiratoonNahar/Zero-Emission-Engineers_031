@@ -5,7 +5,7 @@ import logo from '/src/assets/images/reebok_logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass, faUser, faHeart, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
-const Navbar = () => {
+const Navbar = ({ wishlistCount }) => { // Receive wishlistCount as a prop
     const navigate = useNavigate(); 
 
     const handleLogoClick = () => {
@@ -36,7 +36,12 @@ const Navbar = () => {
             <div className="nav-actions">
                 <FontAwesomeIcon icon={faMagnifyingGlass} />
                 <FontAwesomeIcon icon={faUser} />
-                <FontAwesomeIcon icon={faHeart} onClick={handleWishlistClick} style={{ cursor: 'pointer' }} /> {/* Added onClick here */}
+                <div style={{ position: 'relative' }}>
+                    <FontAwesomeIcon icon={faHeart} onClick={handleWishlistClick} style={{ cursor: 'pointer' }} />
+                    {wishlistCount > 0 && ( // Show count if there are items in the wishlist
+                        <span className="wishlist-count">{wishlistCount}</span>
+                    )}
+                </div>
                 <FontAwesomeIcon icon={faShoppingCart} />
             </div>
         </nav>
@@ -44,4 +49,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
