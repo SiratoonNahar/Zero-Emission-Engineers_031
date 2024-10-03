@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Container for the cards using CSS Grid */
+.category-cards {
+    margin-top: 20rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 8px; 
+  }
+  
+  /* Individual card styling */
+  .card {
+    width: 100%; 
+    height: 86vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
+    position: relative;
+  }
+  
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+  .card h2 {
+    position: absolute; 
+    top: 45%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    z-index: 10; 
+    cursor: pointer;
+  }
+  
