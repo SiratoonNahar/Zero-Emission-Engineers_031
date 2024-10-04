@@ -15,24 +15,26 @@ Frontend | Backend | Fullstack
 - **Database:** [https://deployed-site.whatever](https://deployed-site.whatever)
 
 ## Directory Structure
+
 reebok-website/
-    ├─ src/
-    │ ├─ components/
-    │ │ ├─ Bag/
-    │ │ ├─ Banner/ 
-    │ │ ├─ Banner_video/
-    │ │ ├─ CategoryCards/ 
-    │ │ ├─ FeatureCards/
-    │ │ ├─ Foot/ 
-    │ │ ├─ Navbar/ 
-    │ │ ├─ PaymentPage/
-    │ │ ├─ ProductCards/ 
-    │ │ ├─ Wishlist/ 
-    │ ├─ App.css 
-    │ ├─ App.jsx 
-    │ ├─ index.css 
-    │ ├─ main.jsx  
-    ├─ index.html
+├─ src/
+│  ├─ components/
+│  │  ├─ Bag/
+│  │  ├─ Banner/
+│  │  ├─ Banner_video/
+│  │  ├─ CategoryCards/
+│  │  ├─ FeatureCards/
+│  │  ├─ Foot/
+│  │  ├─ Navbar/
+│  │  ├─ PaymentPage/
+│  │  ├─ ProductCards/
+│  │  ├─ Wishlist/
+│  ├─ App.css
+│  ├─ App.jsx
+│  ├─ index.css
+│  ├─ main.jsx
+├─ index.html
+
 
 ## Video Walkthrough of the project
 Attach a very short video walkthough of all of the features [ 1 - 3 minutes ]
