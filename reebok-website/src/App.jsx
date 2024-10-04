@@ -40,7 +40,7 @@ function App() {
   };
 
   const clearBag = () => {
-    setBagItems([]); // Clear the bag items
+    setBagItems([]); 
   };
 
 
@@ -55,7 +55,7 @@ function App() {
             <FeatureCards />
             <Banner_vdo />
             <ProductCards toggleWishlist={toggleWishlist} wishlistItems={wishlistItems} addToBag={addToBag} /> 
-            <Foot/>
+            
           </div>
         }/>
         <Route path="/wishlist" element={<Wishlist wishlistItems={wishlistItems} removeFromWishlist={removeFromWishlist} addToBag={addToBag} />} />
@@ -71,6 +71,7 @@ function App() {
           } 
         />
       </Routes>
+      <Foot/>
     </Router>
   );
 }

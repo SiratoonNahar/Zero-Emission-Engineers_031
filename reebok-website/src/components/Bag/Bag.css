@@ -28,18 +28,13 @@
 
 input[type="checkbox"] {
     /* appearance: none;  */
-    width: 20px; /* Set a custom size */
+    width: 20px; 
     height: 20px;
-    border: 1px solid #ccc; /* Add a border */
-    border-radius: 4px; /* Make it slightly rounded */
-    outline: none; /* Remove outline on focus */
-    cursor: pointer; /* Change cursor to pointer */
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    outline: none; 
+    cursor: pointer; 
 }
-
-/* input[type="checkbox"]:checked {
-    background-color: #ff69b4; 
-    border: 1px solid #ff69b4; 
-} */
 
 .bag-container img {
     width: 100px;

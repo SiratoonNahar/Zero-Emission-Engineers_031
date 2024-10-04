@@ -46,9 +46,9 @@ const Navbar = ({ wishlistCount, bagCount }) => {
                         <span className="wishlist-count">{wishlistCount}</span>
                     )}
                 </div>
-                <div style={{ position: 'relative' }} onClick={handleBagClick}> {/* Add onClick to navigate to bag */}
+                <div style={{ position: 'relative' }} onClick={handleBagClick}> 
                     <FontAwesomeIcon icon={faShoppingCart} style={{ cursor: 'pointer' }} />
-                    {bagCount > 0 && ( // Show count if there are items in the bag
+                    {bagCount > 0 && ( 
                         <span className="bag-count">{bagCount}</span>
                     )}
                 </div>

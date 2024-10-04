@@ -4,7 +4,7 @@ import './Bag.css';
 
 const Bag = ({ bagItems, removeFromBag }) => {
   const [checkedItems, setCheckedItems] = useState(new Array(bagItems.length).fill(false)); 
-  const navigate = useNavigate(); // Use useNavigate hook
+  const navigate = useNavigate(); 
 
   const handleCheck = (index) => {
     const updatedCheckedItems = [...checkedItems];
@@ -18,7 +18,7 @@ const Bag = ({ bagItems, removeFromBag }) => {
 
   const handleProceedToPayment = () => {
     if (totalAmount > 0) {
-      navigate('/payment'); // Navigate to payment page
+      navigate('/payment'); 
     }
   };
 
