@@ -37,7 +37,7 @@ const FeatureCards = () => {
     return (
         <div className="feature-cards">
             <h2>FEATURING THE BEST</h2>
-            <div className="cards">
+            <div className="f-cards">
                 {features.map((feature, index) => (
                     index < 4 && (
                         <div key={((feature.id))} className="feature-card-container">

@@ -4,7 +4,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Container for the cards using CSS Grid */
+
 .category-cards {
     margin-top: 20rem;
     display: grid;
@@ -13,7 +13,7 @@ body {
     z-index: -1;
   }
   
-  /* Individual card styling */
+  
   .card {
     width: 100%; 
     height: 86vh;

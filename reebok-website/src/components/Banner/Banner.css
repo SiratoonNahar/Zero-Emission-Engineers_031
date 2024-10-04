@@ -5,10 +5,10 @@ body {
 
 .banner {
     width: 100vw;
-    height: 50vh; /* Adjust height as needed */
+    height: 50vh; 
     background-size: cover;
     background-position: center;
-    margin-bottom: 2rem; /* Add spacing */
+    margin-bottom: 2rem; 
 }
 
 .banner img {
