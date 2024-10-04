@@ -88,12 +88,6 @@ const ProductCards = ({ toggleWishlist, wishlistItems }) => {
           <div key={product.id} className="product-card-container">
             <div className="product-card">
               <img src={product.image} alt={product.name} />
-              {/* <FontAwesomeIcon
-                icon={wishlistItems.some(item => item.id === product.id) ? SolidHeart : RegularHeart}
-                className="wishlist-icon"
-                onClick={() => addToWishlist(product)}  
-                style={{ color: wishlistItems.some(item => item.id === product.id) ? '#ff69b4' : '#333' }} 
-              /> */}
               <FontAwesomeIcon
                 icon={wishlistItems.some(item => item.id === product.id) ? SolidHeart : RegularHeart}
                 className="wishlist-icon"
