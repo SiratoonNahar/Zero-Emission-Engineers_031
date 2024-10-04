@@ -29,10 +29,10 @@ reebok-website/
 │  │  ├─ PaymentPage/
 │  │  ├─ ProductCards/
 │  │  ├─ Wishlist/
-│  ├─ App.css
-│  ├─ App.jsx
-│  ├─ index.css
-│  ├─ main.jsx
+├─ App.css
+├─ App.jsx
+├─ index.css
+├─ main.jsx
 ├─ index.html
 ```
 
