@@ -12,7 +12,7 @@ const Navbar = ({ wishlistCount, bagCount }) => {
         navigate("/"); 
     };
 
-    const handleWishlistClick = () => {
+    const handleWishlistClick = () => { 
         navigate("/wishlist"); 
     };
 

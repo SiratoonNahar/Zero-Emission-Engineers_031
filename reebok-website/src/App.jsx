@@ -8,7 +8,7 @@ import Banner_vdo from './components/Banner_video/Banner_video';
 import ProductCards from './components/ProductCards/ProductCards';
 import Wishlist from './components/Wishlist/Wishlist';
 import Bag from './components/Bag/Bag';
-import PaymentPage from './components/PaymentPage/PaymentPage'; 
+import PaymentPage from './components/PaymentPage/PaymentPage';
 import Foot from './components/Foot/Foot';
 
 
@@ -40,7 +40,7 @@ function App() {
   };
 
   const clearBag = () => {
-    setBagItems([]); 
+    setBagItems([]);
   };
 
 
@@ -54,24 +54,24 @@ function App() {
             <CategoryCards />
             <FeatureCards />
             <Banner_vdo />
-            <ProductCards toggleWishlist={toggleWishlist} wishlistItems={wishlistItems} addToBag={addToBag} /> 
-            
+            <ProductCards toggleWishlist={toggleWishlist} wishlistItems={wishlistItems} addToBag={addToBag} />
+
           </div>
-        }/>
+        } />
         <Route path="/wishlist" element={<Wishlist wishlistItems={wishlistItems} removeFromWishlist={removeFromWishlist} addToBag={addToBag} />} />
         <Route path="/bag" element={<Bag bagItems={bagItems} removeFromBag={removeFromBag} />} />
-        <Route 
-          path="/payment" 
+        <Route
+          path="/payment"
           element={
-            <PaymentPage 
-              bagItems={bagItems} 
-              totalAmount={bagItems.reduce((total, item) => total + parseFloat(item.price.replace('$', '')), 0)} 
-              clearBag={clearBag} 
+            <PaymentPage
+              bagItems={bagItems}
+              totalAmount={bagItems.reduce((total, item) => total + parseFloat(item.price.replace('$', '')), 0)}
+              clearBag={clearBag}
             />
-          } 
+          }
         />
       </Routes>
-      <Foot/>
+      <Foot />
     </Router>
   );
 }
