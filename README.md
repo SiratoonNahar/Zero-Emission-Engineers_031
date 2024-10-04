@@ -87,9 +87,9 @@ Authentication: Firebase Authentication
 
 ## Preview 
 ~
-![Homepage Screenshot](\reebok-website\src\assets\images\readmess1.png)
-![Homepage Screenshot](./src/assets/images/readmess2.png)
-![Wishlist Screenshot](./src/assets/images/wishlistss.png)
+![Homepage Screenshot](/reebok-website/src/assets/images/readmess1.png)
+![Homepage Screenshot](/reebok-website/src/assets/images/readmess2.png)
+![Wishlist Screenshot](/reebok-website/src/assets/images/wishlistss.png)
 
 
 
