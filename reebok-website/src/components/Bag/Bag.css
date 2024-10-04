@@ -1,0 +1,82 @@
+.bag-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bag-container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.bag-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bag-container li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+input[type="checkbox"] {
+    /* appearance: none;  */
+    width: 20px; /* Set a custom size */
+    height: 20px;
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 4px; /* Make it slightly rounded */
+    outline: none; /* Remove outline on focus */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+/* input[type="checkbox"]:checked {
+    background-color: #ff69b4; 
+    border: 1px solid #ff69b4; 
+} */
+
+.bag-container img {
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.bag-container span {
+    flex-grow: 1;
+    font-size: 16px;
+    color: #555;
+}
+
+.bag-container button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #2a1ed3; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.bag-container button:hover {
+    background-color: #2984ed; 
+}
+
+.bag-container .bag-container > div {
+    margin-top: 20px;
+}
+
+.bag-container .bag-container p {
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+}

@@ -5,7 +5,7 @@ import logo from '/src/assets/images/reebok_logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass, faUser, faHeart, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
-const Navbar = ({ wishlistCount }) => { // Receive wishlistCount as a prop
+const Navbar = ({ wishlistCount, bagCount }) => { 
     const navigate = useNavigate(); 
 
     const handleLogoClick = () => {
@@ -14,6 +14,10 @@ const Navbar = ({ wishlistCount }) => { // Receive wishlistCount as a prop
 
     const handleWishlistClick = () => {
         navigate("/wishlist"); 
+    };
+
+    const handleBagClick = () => {
+        navigate("/bag"); 
     };
 
     return (
@@ -38,11 +42,16 @@ const Navbar = ({ wishlistCount }) => { // Receive wishlistCount as a prop
                 <FontAwesomeIcon icon={faUser} />
                 <div style={{ position: 'relative' }}>
                     <FontAwesomeIcon icon={faHeart} onClick={handleWishlistClick} style={{ cursor: 'pointer' }} />
-                    {wishlistCount > 0 && ( // Show count if there are items in the wishlist
+                    {wishlistCount > 0 && (
                         <span className="wishlist-count">{wishlistCount}</span>
                     )}
                 </div>
-                <FontAwesomeIcon icon={faShoppingCart} />
+                <div style={{ position: 'relative' }} onClick={handleBagClick}> {/* Add onClick to navigate to bag */}
+                    <FontAwesomeIcon icon={faShoppingCart} style={{ cursor: 'pointer' }} />
+                    {bagCount > 0 && ( // Show count if there are items in the bag
+                        <span className="bag-count">{bagCount}</span>
+                    )}
+                </div>
             </div>
         </nav>
     );

@@ -1,82 +1,91 @@
 .navbar {
-    margin: auto;
-    margin-top: -1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    
-  }
-  
-  .logo {
-    margin-right: 2rem;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-  }
-  
-  .logo img {
-    width: 100px;
-    height: auto;
-  }
-  
-  .nav-links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .nav-links li {
-    margin-right: 1rem;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: #333;
-    transition: color 0.2s ease;
-  }
-  
-  .nav-links a:hover {
-    color: #333;
-    text-decoration: underline;
-  }
-  
+  margin: auto;
+  margin-top: -1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 
-  .nav-actions {
-    display: flex;               
-    align-items: center;        
-    margin-left: auto;         
+}
+
+.logo {
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 
 .nav-actions svg {
-    margin-left: 1rem;          
-    margin-right: 1rem;         
-    cursor: pointer;            
-    position: relative;         
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  position: relative;
 }
 
 
 .nav-actions svg:hover {
-    color: #858484;
+  color: #858484;
 }
 
 
 .wishlist-count {
-    position: absolute;
-    top: -5px;                  
-    right:1px;               
-    background-color: #edb6d3;  
-    color: rgb(15, 14, 14);
-    border-radius: 50%;         
-    padding: 2px 5px;           
-    font-size: 12px;            
-    font-weight: bold;          
+  position: absolute;
+  top: -5px;
+  right: 1px;
+  background-color: #edb6d3;
+  color: rgb(15, 14, 14);
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
-
-  
+.bag-count {
+  position: absolute;
+  top: -5px;
+  right: 1px;
+  background-color: #edb6d3;
+  color: rgb(15, 14, 14);
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
