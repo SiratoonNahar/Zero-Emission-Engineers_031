@@ -9,6 +9,7 @@ import ProductCards from './components/ProductCards/ProductCards';
 import Wishlist from './components/Wishlist/Wishlist';
 import Bag from './components/Bag/Bag';
 import PaymentPage from './components/PaymentPage/PaymentPage'; 
+import Foot from './components/Foot/Foot';
 
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
             <FeatureCards />
             <Banner_vdo />
             <ProductCards toggleWishlist={toggleWishlist} wishlistItems={wishlistItems} addToBag={addToBag} /> 
+            <Foot/>
           </div>
         }/>
         <Route path="/wishlist" element={<Wishlist wishlistItems={wishlistItems} removeFromWishlist={removeFromWishlist} addToBag={addToBag} />} />
