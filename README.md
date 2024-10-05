@@ -2,11 +2,11 @@
 
 ## Introduction
 
-We have developed a fully functional e-commerce website using React and Vite for the frontend, Firebase for backend support, and other necessary technologies. This platform provides a smooth and efficient shopping experience, focusing on performance, user-friendliness, and responsiveness.
+This e-commerce platform is a fully functional clone of the Reebok website, designed to deliver a seamless and efficient shopping experience. Built using React and Vite for the frontend and supported by Firebase on the backend, the site is optimized for performance, user-friendliness, and responsiveness. The interface mimics the original Reebok site, ensuring a familiar yet highly intuitive user experience, while maintaining modern web development standards for smooth functionality across all devices.
 
 ## Project Type
 
-Frontend |
+Frontend 
 
 ## Deployed App
 
