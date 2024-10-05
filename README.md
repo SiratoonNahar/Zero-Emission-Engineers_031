@@ -87,8 +87,6 @@ npm run dev
 
 ## Preview 
 
-![Homepage Screenshot](/reebok-website/src/assets/images/readmess1.png)
-![Homepage Screenshot](/reebok-website/src/assets/images/readmess2.png)
 ![Homepage Screenshot](/reebok-website/src/assets/images/home_page.png)
 ![Login page Screenshot](/reebok-website/src/assets/images/login.png)
 ![Products Screenshot](/reebok-website/src/assets/images/products.png)
