@@ -6,13 +6,13 @@ We have developed a fully functional e-commerce website using React and Vite for
 
 ## Project Type
 
-Frontend | Backend | Fullstack
+Frontend |
 
 ## Deployed App
 
 - **Frontend:** [https://deployed-site.whatever](https://deployed-site.whatever)
-- **Backend:** [https://deployed-site.whatever](https://deployed-site.whatever)
-- **Database:** [https://deployed-site.whatever](https://deployed-site.whatever)
+<!-- - **Backend:** [https://deployed-site.whatever](https://deployed-site.whatever)
+- **Database:** [https://deployed-site.whatever](https://deployed-site.whatever) -->
 
 ## Directory Structure
 ```
@@ -89,7 +89,11 @@ npm run dev
 
 ![Homepage Screenshot](/reebok-website/src/assets/images/readmess1.png)
 ![Homepage Screenshot](/reebok-website/src/assets/images/readmess2.png)
-![Wishlist Screenshot](/reebok-website/src/assets/images/wishlistss.png)
+![Products Screenshot](/reebok-website/src/assets/images/products.png)
+![Wishlist Screenshot](/reebok-website/src/assets/images/wishlist.png)
+![Add to Bag Screenshot](/reebok-website/src/assets/images/Add_to_bag.png)
+![Add to Bag Screenshot](/reebok-website/src/assets/images/payment.png)
+
 
 
 
