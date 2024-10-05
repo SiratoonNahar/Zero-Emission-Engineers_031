@@ -10,7 +10,7 @@ import Wishlist from './components/Wishlist/Wishlist';
 import Bag from './components/Bag/Bag';
 import PaymentPage from './components/PaymentPage/PaymentPage';
 import Foot from './components/Foot/Foot';
-
+import Auth from './components/Auth';
 
 function App() {
   const [wishlistItems, setWishlistItems] = useState([]);
@@ -43,7 +43,6 @@ function App() {
     setBagItems([]);
   };
 
-
   return (
     <Router>
       <Navbar wishlistCount={wishlistItems.length} bagCount={bagItems.length} />
@@ -55,7 +54,6 @@ function App() {
             <FeatureCards />
             <Banner_vdo />
             <ProductCards toggleWishlist={toggleWishlist} wishlistItems={wishlistItems} addToBag={addToBag} />
-
           </div>
         } />
         <Route path="/wishlist" element={<Wishlist wishlistItems={wishlistItems} removeFromWishlist={removeFromWishlist} addToBag={addToBag} />} />
@@ -70,6 +68,7 @@ function App() {
             />
           }
         />
+        <Route path="/auth" element={<Auth />} />
       </Routes>
       <Foot />
     </Router>
@@ -77,6 +76,3 @@ function App() {
 }
 
 export default App;
-
-
-

@@ -19,6 +19,9 @@ const Navbar = ({ wishlistCount, bagCount }) => {
     const handleBagClick = () => {
         navigate("/bag"); 
     };
+    const handleUserClick = () => {
+        navigate("/auth"); // Navigate to the login/register page when user icon is clicked
+    };
 
     return (
         <nav className="navbar">
@@ -39,7 +42,7 @@ const Navbar = ({ wishlistCount, bagCount }) => {
             </div>
             <div className="nav-actions">
                 <FontAwesomeIcon icon={faMagnifyingGlass} />
-                <FontAwesomeIcon icon={faUser} />
+                <FontAwesomeIcon icon={faUser} onClick={handleUserClick} style={{ cursor: 'pointer' }} /> {/* User Icon with Click Event */}
                 <div style={{ position: 'relative' }}>
                     <FontAwesomeIcon icon={faHeart} onClick={handleWishlistClick} style={{ cursor: 'pointer' }} />
                     {wishlistCount > 0 && (
