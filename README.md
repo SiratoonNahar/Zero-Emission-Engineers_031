@@ -73,6 +73,7 @@ npm install
 # Install additional dependencies
 npm install react-router-dom
 npm install axios
+npm install firebase
 npm install react-redux
 npm install @reduxjs/toolkit
 
