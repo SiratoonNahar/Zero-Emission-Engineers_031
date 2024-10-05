@@ -31,9 +31,12 @@ reebok-website/
 │  │  ├─ Wishlist/
 ├─ App.css
 ├─ App.jsx
+├─ Auth.jsx
+├─ firebase.js
 ├─ index.css
 ├─ main.jsx
 ├─ index.html
+
 ```
 
 ## Video Walkthrough of the project
