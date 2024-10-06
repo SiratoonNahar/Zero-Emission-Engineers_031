@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 100vw;
+    height: 50vh; 
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem; 
+}
+
+.banner img {
+    width: 100vw;
+    height: 85vh;
+    object-fit: cover;
+    display: block;
+}
