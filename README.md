@@ -10,7 +10,7 @@ Frontend
 
 ## Deployed App
 
-- **Frontend:** [https://deployed-site.whatever](https://clinquant-caramel-844e5c.netlify.app/)
+- **Frontend:** (https://clinquant-caramel-844e5c.netlify.app/)
 <!-- - **Backend:** [https://deployed-site.whatever](https://deployed-site.whatever)
 - **Database:** [https://deployed-site.whatever](https://deployed-site.whatever) -->
 
