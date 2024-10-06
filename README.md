@@ -96,7 +96,7 @@ npm run dev
 ![Products Screenshot](/reebok-website/src/assets/images/products.png)
 ![Wishlist Screenshot](/reebok-website/src/assets/images/wishlist.png)
 ![Add to Bag Screenshot](/reebok-website/src/assets/images/Add_to_bag.png)
-![Add to Bag Screenshot](/reebok-website/src/assets/images/payment.png)
+![Payment_page Screenshot](/reebok-website/src/assets/images/payment.png)
 
 
 
