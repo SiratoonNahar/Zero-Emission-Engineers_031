@@ -1,5 +1,5 @@
 import React from "react";
-import './Foot.css';  // Import the CSS file
+import './Foot.css';  
 
 const Foot = () => {
   return (
