@@ -40,10 +40,10 @@ reebok-website/
 ```
 
 ## Video Walkthrough of the project
-https://youtu.be/YJgsuNiFBik
+Questionnaire: https://youtu.be/YJgsuNiFBik
 
 ## Video Walkthrough of the codebase
-https://youtu.be/SYsLTKpBG6c  
+Presentation: https://youtu.be/SYsLTKpBG6c  
 
 ## Features
 
